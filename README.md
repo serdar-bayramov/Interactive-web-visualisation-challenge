@@ -7,15 +7,14 @@ In this assignment, we build an interactive dashboard to explore the [Belly Butt
 The dataset "samples" is given in the json format, which is read inside js file using d3 library.
 
 
-
 1. First off, we create a dropdown menu function where we insert all of the ID_names from 'names' array in 'samples' json file.
 
 2. Then,we create 'init' function which contains all of the visualisation plots. The values were initially random (they were just sliced off from the initial dataset in order to build the structure of the plots). The visualisations are as follows:
 
-1. Bar chart
-2. Bubble chart
-3. Demographic info table
-4. Gauge chart
+a. Bar chart
+b. Bubble chart
+c. Demographic info table
+d. Gauge chart
 
 3. We then create a function called 'optionChanged' that takes an argument called 'input'. The function 'optionChanged' is in fact an event handling function which already exists in html tag. 
 
