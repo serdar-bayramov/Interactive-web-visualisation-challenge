@@ -120,7 +120,7 @@ function optionChanged(input) {
             var update_data = data.samples.filter(x => x.id == input);
             var x = update_data[0].otu_ids.slice(0, 30);
             var y = update_data[0].sample_values.slice(0, 30);
-            var text = update_data[0]. otu_labels.slice(0, 30);
+            var text = update_data[0].otu_labels.slice(0, 30);
 
             Plotly.restyle("bubble", 'x', [x]);
             Plotly.restyle("bubble", 'y', [y]);
