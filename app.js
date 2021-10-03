@@ -1,5 +1,5 @@
 //create url to read local json file
-var url = "/data/samples.json"
+var url = "../data/samples.json"
 
 d3.json(url).then(function(data) 
     {console.log(data)}
